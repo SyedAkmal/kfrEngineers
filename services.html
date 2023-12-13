@@ -66,6 +66,23 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <link rel="icon" href="assets/images/KFR-Engineers.gif" type="image/x-icon" />
     <title>KFR Engineers</title>
 
+
+    <!-- Active Nalinks -->
+    <script>
+        document.addEventListener("DOMContentLoaded", function () {
+            var currentLocation = window.location.href;
+        
+            var navLinks = document.querySelectorAll(".navlink");
+        
+            navLinks.forEach(function (link) {
+                if (link.href === currentLocation) {
+                    link.classList.add("active-navlink");
+                }
+            });
+        });
+        </script>
+      <!-- Active Nalinks -->   
+
     <!-- Scripts -->
 
     <!-- Fonts -->
@@ -1118,11 +1135,12 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
                         <div class="top-bar-left-wrapper">
                             <ul class="topbar-menu smooth-scroll-menu">
-                                 <li><a id="products"  class="new-product-link" href="new-products.html">New Products</a></li>
-                                <li><a id="products" class="smooth-menu" href="products.html">All Products</a></li>
-                                <li><a class="smooth-menu" href="services.html">Services</a></li>
-                                <li><a class="smooth-menu" href="news%26resources.html" id="">Resources</a></li>
-                                <li><a class="smooth-menu" href="contact.html">Contact Us</a></li>
+                                <li><a id="home" class="new-product-link navlink" href="index.html">Home</a></li>
+                                <li><a id="products" class="smooth-menu navlink" href="products.html">About Us</a>
+                                </li>
+                                <li><a class="smooth-menu navlink" href="new-products.html">Products & Developments</a></li>
+                                <li><a class="smooth-menu navlink" href="services.html">Services</a></li>
+                                <li><a class="smooth-menu navlink" href="contact.html">Contact Us</a></li>
 
 
                                 <!--   <li><a class="smooth-menu" href="distributors">Distributors</a></li> -->
