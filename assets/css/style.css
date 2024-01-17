@@ -28,7 +28,7 @@
     -> Project counter
     -> Blog newsletter
     -> Support footer
-    -> CTA area 
+    -> CTA area
     -> Career
     -> Icon info
     -> Banner
@@ -1134,7 +1134,7 @@ select {
 	border:1px solid #ddd;
 	border-top-left-radius: 20px;
 	border-top-right-radius:20px;
-	background: #fff;	
+	background: #fff;
 	position: fixed;
 	bottom: 0;
 	right: 0;
@@ -1426,7 +1426,7 @@ input::placeholder {
 }
 
 .header-area.header-sticky.is-sticky .header-top-bar {
-	
+
 }
 
 .header-area.header-sticky.is-sticky .search-form {
@@ -5516,9 +5516,9 @@ font-weight: 700;
 }
 
 .see-more-link--dark i {
-	
+
 	color: #e5282c;
-	
+
 }
 
 .industry-two-slider__single-item__content .title a:hover, .industry-five-slider__single-slide__content .title a:hover{
@@ -5982,12 +5982,12 @@ font-weight: 700;
 }
 
 .section-title-area .title--style5 {
-	
+
 	font-size: 2.125rem;
 	font-weight: 300;
 	margin: 25px 0;
 	color: #4a4141f0;
-	
+
 }
 
 .section-title-area .title--style5:after {
@@ -7345,7 +7345,7 @@ a.scroll-top.show {
 		background:#efefef ;
 		border-bottom-left-radius: 25px;
 		border-bottom-right-radius: 25px;
-		
+
 		z-index: 2;
 		position: relative;
 	}
@@ -7399,7 +7399,7 @@ a.scroll-top.show {
 }
 
 .industry-two-slider__single-item:hover .products-animated-icon {
-	
+
 	cursor: pointer;
 	-webkit-box-shadow:0px 0px 40px 0px rgba(195, 195, 209, 0.6);
 	-moz-box-shadow:0px 0px 40px 0px rgba(195, 195, 209, 0.6);
@@ -7727,7 +7727,7 @@ a.scroll-top.show {
 }
 
 .industry-five-slider__single-slide__content .title a:hover {
-	
+
 }
 
 .industry-five-slider__single-slide__content .post-excerpt {
@@ -10602,7 +10602,7 @@ a.scroll-top.show {
 }
 
 .single-industry-grid-two:nth-child(3n+1) .single-industry-grid-two__content .title a {
-	
+
 }
 
 .single-industry-grid-two:nth-child(3n+1) .single-industry-grid-two__content .title a:hover {
@@ -10624,7 +10624,7 @@ a.scroll-top.show {
 .feature-background__image {
 	background-size: cover;
 	background-repeat: no-repeat;
-	background-position: center bottom;
+	background-position: center center;
 	min-height: 300px;
 	height: 100%;
 }
@@ -11048,7 +11048,7 @@ a.scroll-top.show {
 	padding: 70px 40px;
 	height: 220px;
 	width: 100%;
-	
+
 	border-top-left-radius: 25px;
 	border-top-right-radius:25px;
 	-webkit-transition: all 0.3s ease 0s;
@@ -11111,7 +11111,7 @@ a.scroll-top.show {
 .service.service-two .service-inner {
 	padding: 0;
 	border-radius: 25px;
-	
+
 
 }
 
@@ -11145,7 +11145,7 @@ a.scroll-top.show {
 }
 
 .service-two, .industry-five-slider__single-slide , .featured-project-three-slider__single-slide .image{
-	
+
 
 	box-shadow:0px 0px 50px 0px rgba(19, 19, 28, 0.06);
 }
@@ -19196,7 +19196,7 @@ border-bottom-color: #E5282C;
 	}
 
 	.featured-project-three-slider__container-area .ht-swiper-button-nav {
-		
+
 	}
 
 	.industry-four-slider__container-area .ht-swiper-button-prev {
@@ -21957,7 +21957,7 @@ border-bottom-color: #E5282C;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;
-    
+
 }
 
 }
@@ -22220,7 +22220,7 @@ border-bottom-color: #E5282C;
 	.ml3 {
 
 		font-size: 2.5em;
-		
+
 		letter-spacing: 2px;
 		color: #4a4141f0;
 
@@ -22282,7 +22282,7 @@ border-bottom-color: #E5282C;
 		color: #484848;
 		line-height:1.2;
 		font-family: 'Nunito', sans-serif;
-		
+
 		font-weight: normal;
 	}
 
@@ -22326,7 +22326,7 @@ opacity: .7;*/
 
 ::-webkit-scrollbar-track {
 	box-shadow: inset 0 0 5px white;
-	
+
 }
 
 
@@ -22334,8 +22334,8 @@ opacity: .7;*/
 
 ::-webkit-scrollbar-thumb {
 	background: #888;
-	
-	
+
+
 }
 
 
@@ -22355,11 +22355,11 @@ opacity: .7;*/
 	background-color: #888;
 	color: #fff;
 	border:3px solid #888;
-	
+
 }
 
 .btn-default:hover{
-	
+
 	background-color: transparent;
 	color: #fff;
 	transition: .6s;
@@ -22453,30 +22453,30 @@ opacity: .7;*/
 
 
 body{
-	
+
 }
 
 
 
 .highlight , .service-details-tab .nav  a.active {
-	
+
 	background:linear-gradient(to bottom right,#ed0000,#0146a0);
 	-webkit-background-clip: text;
 	-webkit-text-fill-color: transparent;
 	background-clip: text;
 	text-fill-color: transparent;
-	
+
 }
 
 .header-font-style{
-	
+
 	font-weight: 400;
 	letter-spacing: 0;
 	-webkit-font-smoothing:antialised;
 }
 
 .social-links--white-topbar ul li a{
-	
+
 }
 
 .social-links--white-topbar ul li a:hover , .topbar-menu li a:hover {
@@ -22490,14 +22490,14 @@ body{
 }
 
 .header-navigation__nav nav > ul > li:hover > a{
-	color: 
+	color:
 	#e5282c;
 /*    background: linear-gradient(to bottom right,#00edad,#0146a0);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
     text-fill-color: transparent;*/
-    
+
 }
 
 .highlight span {
@@ -22530,7 +22530,7 @@ body{
 .header-area{
 	position: relative;
 	z-index: 10;
-	
+
 }
 
 
@@ -22661,7 +22661,7 @@ body{
 		padding: 10px 15px;
 		border-top-left-radius: 7px;
 		border-bottom-left-radius: 7px;
-		font-weight: bold;	
+		font-weight: bold;
 		border-right: 2px solid #888;
 	}
 
@@ -22670,11 +22670,11 @@ body{
 		position: relative;
 		border-radius: 10px;
 		margin-bottom: 30px;
-		border-bottom: 4px solid #ddd;   
+		border-bottom: 4px solid #ddd;
 	}
 
 	.properti_city:hover{
-		border-bottom: 4px solid #e5282c; 	
+		border-bottom: 4px solid #e5282c;
 	}
 
 	.properti_city .thumb{
@@ -22729,11 +22729,11 @@ body{
 .tube-tool-layout:hover .product-range{
 	color:#fff;
 	background: #E5282C;
-	font-weight: bold; 
-	border-color:#E5282C; 
+	font-weight: bold;
+	border-color:#E5282C;
 }
 
-.tube-tool-layout:hover 
+.tube-tool-layout:hover
 .product-value{
 	color: #888;
 	/* background: #E5282C; */
@@ -22769,7 +22769,7 @@ body{
 	font-weight: normal;
 	margin: 5px 0 0 -5px;
 	padding: 10px 15px;
-	border-top-right-radius:7px; 
+	border-top-right-radius:7px;
 	border-bottom-right-radius: 7px;
 	border-left: none;
 }
@@ -22801,7 +22801,7 @@ body{
     -moz-box-shadow: 0px 0px 50px 0px rgba(32, 32, 32, 0.15);
     -o-box-shadow: 0px 0px 50px 0px rgba(32, 32, 32, 0.15);
     box-shadow: 0px 0px 50px 0px rgba(32, 32, 32, 0.15);*/
-    
+
     height: 35px;
     padding: 7px 30px;
     position: relative;
@@ -23019,7 +23019,7 @@ ul.icon-menu li.icon-box .caret-icon{
 	0% {
 		opacity: 0;
 		transform: translateY(100px);
-	} 
+	}
 
 
 	100%
@@ -23031,7 +23031,7 @@ ul.icon-menu li.icon-box .caret-icon{
 
 
 	.overlay-product-cover{
-		
+
 		width: 100%;
 		min-height: 300px;
 		object-fit: cover;
@@ -23191,7 +23191,7 @@ ul.icon-menu li.icon-box .caret-icon{
 	.tp-caption,.tm-button-wrapper{
 		margin-left: -34px !important;
 	}
-	
+
 .caption-text{
 	font-size: 40px !important;
 }
