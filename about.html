@@ -580,15 +580,54 @@
                                     ENGINEERS</span>
                             </a>
                         </div>
-
                     </div>
-
-                    <div class="col-md-8 row hide-web-menu">
-
-                        <div class="col-md-9 d-flex justify-content-end pr-0">
-
+                    <div class="col-md-8 row">
+                        <div class="col-md-10 d-flex justify-content-end pr-0">
                             <div class="top-bar-left-wrapper">
-                                <ul class="topbar-menu smooth-scroll-menu">
+                                <!-- Menu Icon for Mobile -->
+                                <label for="menu-toggle" class="menu-icon">&#9776;</label>
+                                <input type="checkbox" id="menu-toggle" class="menu-toggle">
+                                <ul class="nav">
+                                    <li><a href="index.html">Home</a></li>
+                                    <li><a href="about.html">About</a></li>
+                                    <li>
+                                        <a href="#">Products &
+                                            Developments <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                        <ul class="dropdown">
+                                            <li><a href="tubenipping.html">REFORMER TUBE NIPPING TOOL</a></li>
+                                            <li><a href="critical-spares.html">MANIFACTURING OF CRITICAL SPARES</a></li>
+                                            <li><a href="lube-oil.html">LUBE OIL PUMP</a></li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="#">Services <i class="fa fa-caret-down" aria-hidden="true"></i></a>
+                                        <ul class="dropdown">
+                                            <li><a href="#">ONSITE IN-SITU MACHINING <i class="fa fa-caret-down"
+                                                        aria-hidden="true"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="flange-facing.html">FLANGE FACING</a></li>
+                                                    <li><a href="line-boring.html">LINE BORING</a></li>
+                                                    <li><a href="milling.html">MILLING </a></li>
+                                                </ul>
+                                            </li>
+                                            <li><a href="#">OVERHAULING OF SCREW COMPRESSOR ROTOR SET</a></li>
+                                            <li><a href="#">OTHERs <i class="fa fa-caret-down"
+                                                        aria-hidden="true"></i></a>
+                                                <ul class="submenu">
+                                                    <li><a href="reverse-engineering.html">REVERSE ENGINEERING</a></li>
+                                                    <li><a href="manpower-solutions.html">MANPOWER SOLUTIONS</a></li>
+                                                    <li><a href="bolt-tightening.html">BOLT TIGHTENING SOLUTIONS</a>
+                                                    </li>
+                                                    <li><a href="rolling-process.html">THREAD BY ROLLING PROCESS</a>
+                                                    </li>
+                                                    <li><a href="online-reformer.html">ONLINE REFORMER TUBE NIPPING</a>
+                                                    </li>
+                                                </ul>
+                                            </li>
+                                        </ul>
+                                    </li>
+                                    <li><a href="contact.html">Contact</a></li>
+                                </ul>
+                                <!-- <ul class="topbar-menu smooth-scroll-menu">
                                     <li><a id="home" class="new-product-link navlink" href="index.html">Home</a></li>
                                     <li><a id="products" class="smooth-menu navlink" href="about.html">About Us</a>
                                     </li>
@@ -598,27 +637,27 @@
                                     </li>
                                     <li><a id="contact" class="smooth-menu navlink" href="contact.html">Contact Us</a>
                                     </li>
-                                </ul>
+                                </ul> -->
                             </div>
                         </div>
 
 
-                        <div class="col-md-3 d-flex justify-content-end">
+                        <div class="col-md-2 hide-web-menu">
                             <!-- top bar right -->
                             <div class="top-bar-right-wrapper">
                                 <div
                                     class="social-links social-links--white-topbar d-inline-block d-flex justify-content-end mr-0">
                                     <ul>
-                                        <li><a href="https://www.linkedin.com/company/#"
-                                                target="_blank"><i class="ion-social-linkedin"></i></a></li>
+                                        <!-- <li><a href="https://www.linkedin.com/company/#" target="_blank"><i
+                                                    class="ion-social-linkedin"></i></a></li> -->
                                         <li><a href="https://twitter.com/#" target="_blank"><i
                                                     class="ion-social-twitter"></i></a></li>
                                         <li><a href="https://www.facebook.com/#" target="_blank"><i
                                                     class="ion-social-facebook"></i></a></li>
-                                        <li><a href="mailto:contactus@kfrengineers.com" target="_blank"><i
-                                                    class="icon ion-email"></i></a></li>
-                                        <li><a href="https://www.youtube.com/channel/#"
-                                                target="_blank"><i class="ion-social-youtube"></i></a></li>
+                                        <!-- <li><a href="mailto:contactus@kfrengineers.com" target="_blank"><i
+                                                    class="icon ion-email"></i></a></li> -->
+                                        <li><a href="https://www.youtube.com/channel/#" target="_blank"><i
+                                                    class="ion-social-youtube"></i></a></li>
 
                                         <!--      <li  ><a href="http://vimeo.com/"><i class="ion-social-youtube"></i></a></li>
  --><!--
@@ -799,6 +838,173 @@
 
         <style>
             @import url("https://fonts.googleapis.com/css?family=Roboto:100,100i,300,300i,400,400i,500,500i,700,700i,900,900i");
+
+
+            /* Navigation styling */
+            .nav-container {
+                background: #333;
+                padding: 10px 20px;
+            }
+
+            .menu-toggle {
+                display: none;
+            }
+
+            .menu-icon {
+                display: none;
+                font-size: 24px;
+                cursor: pointer;
+                color: white;
+            }
+
+            .nav {
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                display: flex;
+                background: transparent;
+            }
+
+            .nav>li {
+                position: relative;
+            }
+
+            .nav>li>a {
+                text-decoration: none;
+                padding: 15px 20px;
+                display: block;
+                color: #888 !important;
+                font-weight: 600;
+                font-family: Open Sans;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 12px;
+                line-height: 20px;
+                transition: background 0.3s ease;
+            }
+
+            .nav>li:hover>a {
+                border-bottom: 2px solid #a52834;
+            }
+
+            /* Dropdown styles */
+            .dropdown {
+                position: absolute;
+                left: 0;
+                top: 100%;
+                background: #fff;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                width: 200px;
+                opacity: 0;
+                visibility: hidden;
+                transform: translateY(10px);
+                transition: all 0.3s ease;
+            }
+
+            .nav li:hover>.dropdown {
+                opacity: 1;
+                visibility: visible;
+                transform: translateY(0);
+                display: block;
+            }
+
+            .dropdown li {
+                position: relative;
+            }
+
+            .dropdown a {
+                text-decoration: none;
+                color: #888 !important;
+                font-weight: 600;
+                font-family: Open Sans;
+                text-transform: uppercase;
+                letter-spacing: 1px;
+                font-size: 12px;
+                line-height: 20px;
+                padding: 10px 15px;
+                display: block;
+                transition: background 0.3s ease;
+            }
+
+            .dropdown li:hover>a {
+                background: #ccc;
+                color: #888;
+            }
+
+            /* Submenu (for desktop) */
+            .dropdown .submenu {
+                position: absolute;
+                left: 100%;
+                top: 0;
+                background: #555;
+                list-style: none;
+                padding: 0;
+                margin: 0;
+                width: 200px;
+                opacity: 0;
+                visibility: hidden;
+                transform: translateX(10px);
+                transition: all 0.3s ease;
+            }
+
+            .dropdown li:hover>.submenu {
+                opacity: 1;
+                visibility: visible;
+                transform: translateX(0);
+                display: block;
+            }
+
+            /* Responsive styles */
+            @media (max-width: 768px) {
+                .menu-icon {
+                    display: block;
+                    position: fixed;
+                    top: 5%;
+                    right: 5%;
+                    color: #000000;
+                }
+
+                .nav {
+                    flex-direction: column;
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    width: 50%;
+                    background: #f4f4f4;
+                    display: none;
+                }
+
+                .nav li {
+                    width: 100%;
+                }
+
+                .nav>li>a {
+                    color: #2b2a2a !important;
+                }
+
+                .menu-toggle:checked+.nav {
+                    display: flex;
+                }
+
+                /* Dropdown & submenu for mobile */
+                .dropdown,
+                .submenu {
+                    position: static;
+                    opacity: 1;
+                    visibility: visible;
+                    display: none;
+                    transform: none;
+                    width: 100%;
+                }
+
+                .dropdown li:hover>.dropdown,
+                .dropdown li:active>.dropdown .dropdown li:hover>.submenu,
+                .dropdown li:active>.submenu {
+                    display: block;
+                }
+            }
 
             .modal {
                 position: fixed;
@@ -2844,6 +3050,43 @@
                 transition-property: opacity, top, bottom;
                 visibility: visible;
             }
+
+            /* Hero Section */
+            .hero-section {
+                background-size: cover;
+                background-position: center;
+                /* height: 50vh; */
+                position: relative;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+            }
+
+            .hero-content {
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 30px 50px;
+                border-radius: 10px;
+            }
+
+            .hero-content h1 {
+                color: #fff;
+                font-size: 32px;
+                font-weight: 700;
+                text-align: center;
+            }
+
+            .hero-overlay {
+                background-color: rgba(0, 0, 0, 0.5);
+                padding: 40px 20px;
+                width: 100%;
+                text-align: center;
+            }
+
+            .hero-overlay h1 {
+                color: #fff;
+                font-size: 48px;
+                font-weight: 700;
+            }
         </style>
 
         <script type="text/javascript">
@@ -3029,22 +3272,11 @@
         <div class="page-content-wrapper">
 
             <!--====================  breadcrumb area ====================-->
-            <div class="breadcrumb-area breadcrumb-area-bg section-space--inner--80 bg-img"
-                data-bg="assets/img/backgrounds/20.jpg">
-                <div class="container">
-                    <div class="row align-items-center">
-                        <div class="col-sm-6">
-                            <h2 class="breadcrumb-page-title">About Us</h2>
-                        </div>
-                        <div class="col-sm-6">
-                            <ul class="breadcrumb-page-list text-uppercase">
-                                <li class="has-children"><a href="index.html">Home</a></li>
-                                <li>About Us</li>
-                            </ul>
-                        </div>
-                    </div>
+            <section class="hero-section" style="background-image: url('assets/img/backgrounds/tool-back.jpg');">
+                <div class="hero-overlay">
+                    <h1>Manufacturing Of Critical Spares</h1>
                 </div>
-            </div>
+            </section>
             <!--====================  End of breadcrumb area  ====================-->
 
 
