@@ -1890,11 +1890,13 @@ input::placeholder {
 .logo a img ,.header-vertical__logo img {
 	max-width: 190px;
 }
-.logo a span{
-	color:black;
-	font-size: 16px;
-	font-weight: 800;
+.logo a span {
+    color: black;
+    font-size: 15px;
+    font-weight: 300;
 }
+
+
 .header-navigation {
 	-webkit-flex-basis: calc(100% - 535px);
 	-ms-flex-preferred-size: calc(100% - 535px);
@@ -7701,7 +7703,7 @@ a.scroll-top.show {
 
 .industry-five-slider__single-slide__image {
 	width: 50%;
-	height: 300px;
+	/* height: 300px; */
 	background-size: cover;
 	background-repeat: no-repeat;
 }
